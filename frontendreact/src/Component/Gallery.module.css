@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.lightmode {
+  --background-color: transparent;
+  --text-color: black;
+  --border: black;
+  --buttonbg: rgb(41, 128, 221);
+  --iconcol: black;
+}
+
+/* Dark Mode Styles */
+.darkmode {
+  --background-color: rgb(25, 25, 107);
+  --text-color: #fff;
+  --border: white;
+  --buttonbg: rgb(25, 25, 107);
+  --iconcol: white;
+}
+
+.column1 {
+  height: 100%;
+  position: fixed;
+  overflow-x: hidden;
+  width: 20%;
+  padding: 25px 40px 0px 40px;
+  background-color: var(--background-color);
+}
+
+.column2 {
+  display: flex;
+  overflow-x: hidden;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  width: 80%;
+  padding: 25px 55px 10px 40px;
+  background-color: var(--background-color);
+}
+
+.ttext {
+  font-size: 250%;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.card {
+  text-align: center;
+  background-color: var(--background-color);
+  border: 3px solid;
+  border-color: var(--border);
+}
+
+.ulli {
+  background-color: var(--buttonbg);
+  color: white;
+  padding: 14px;
+}
+
+.ulli:hover{
+  background-color: rgb(53, 90, 213);
+}
+
+.ulbutton {
+  border-top: 3px solid var(--border);
+  margin-top: -1px;
+  background-color: var(--background-color);
+  padding: 14px;
+  align-items: center;
+}
+
+.ttextt {
+  width: 100%;
+  background-color: var(--buttonbg);
+  border-top: 3px solid var(--border);
+}
+
+.ttextt:hover{
+  background-color: rgb(53, 90, 213);
+}
+
+
+.addphotobutton {
+  padding: 14px;
+  background-color: var(--buttonbg);
+  border-top: 3px solid var(--border);
+}
+
+.addphotobutton:hover {
+  background-color: rgb(53, 90, 213);
+}
+
+.image {
+  opacity: 1;
+}
+
+.image:hover {
+  opacity: 0.75;
+
+}
+
+.iconn {
+  color: #ffffffdf;
+  opacity: 0.4;
+}
+
+.iconn:hover {
+  box-shadow: 0 0px 10px #ffffffdf;
+  opacity: 0.7;
+}
+
+.iconnn {
+  color: var(--iconcol);
+  opacity: 0.7;
+}
+
+.iconnn:hover {
+  box-shadow: 0 0px 10px var(--iconcol);
+}
+
+/* Style the counter cards */
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.modal1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form {
+  position: 'absolute';
+  top: '50%';
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+  width: 400;
+  background-color: white;
+  border: '2px solid #000';
+  box-shadow: 24;
+  padding: 4;
+}
